@@ -27,4 +27,5 @@ export const CreationsButton = styled.button`
     margin-bottom: 50px;
     letter-spacing: 5px;
     margin-top: 10px;
+    cursor: pointer;
 `;
