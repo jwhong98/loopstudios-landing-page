@@ -1,6 +1,6 @@
 import React from 'react'
 import { AboutSectionContainer, AboutImg, TextWrapper, AboutTitle, AboutDescription } from './AboutSectionElements';
-import img from '../../images/mobile/image-interactive.jpg'
+import img from '../../image/mobile/image-interactive.jpg';
 
 const AboutSection = () => {
     return (

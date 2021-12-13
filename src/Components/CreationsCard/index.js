@@ -1,10 +1,13 @@
 import React from 'react'
+import { CreationsCardContainer, TextWrapper, Title } from './CreationsCardElements';
 
-const CreationsCard = () => {
+const CreationsCard = (props) => {
     return (
-        <div>
-            
-        </div>
+        <CreationsCardContainer img={props.img}>
+            <TextWrapper>
+                <Title>{props.title}</Title>
+            </TextWrapper>
+        </CreationsCardContainer>
     )
 }
 

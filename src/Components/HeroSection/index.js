@@ -1,5 +1,5 @@
 import React from 'react'
-import { HeroSectionContainer, HeroImg , TextWrapper, Text } from './HeroSection';
+import { HeroSectionContainer, TextWrapper, Text } from './HeroSection';
 
 const HeroSection = () => {
     return (
