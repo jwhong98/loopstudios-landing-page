@@ -35,6 +35,10 @@ export const MenuItem = styled.li`
     font-family: 'Alata', sans-serif;
     margin-bottom: 30px;
     text-align: center;
+
+    &:hover {
+        text-decoration: underline;
+    }
 `;
 
 export const FooterLink = styled.a`
@@ -57,7 +61,12 @@ export const SocialItem = styled.li`
 `;
 
 export const SocialIcon = styled.img`
+    cursor: pointer;
 
+    &:hover {
+        padding-bottom: 2px;
+        border-bottom: 2px solid #fff;
+    }
 `;
 
 export const Copyright = styled.p`

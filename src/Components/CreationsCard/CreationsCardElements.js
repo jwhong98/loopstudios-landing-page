@@ -10,6 +10,12 @@ export const CreationsCardContainer = styled.div`
     align-items: flex-end;
     padding: 20px;
     margin-bottom: 30px;
+    color: #fff;
+    cursor: pointer;
+
+    &:hover {
+        color: hsl(0, 0%, 0%);
+    }
 `;
 
 export const TextWrapper = styled.div`
@@ -19,7 +25,6 @@ export const TextWrapper = styled.div`
 `;
 
 export const Title = styled.h1`
-    color: #fff;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 300;
     text-transform: uppercase;

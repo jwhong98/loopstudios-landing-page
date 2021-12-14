@@ -28,4 +28,9 @@ export const CreationsButton = styled.button`
     letter-spacing: 5px;
     margin-top: 10px;
     cursor: pointer;
+
+    &:hover {
+        background-color: hsl(0, 0%, 0%);
+        color: #fff;
+    }
 `;
