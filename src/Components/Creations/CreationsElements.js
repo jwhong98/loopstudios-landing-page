@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const CreationsContainer = styled.div`
-    padding: 0 30px;
+    padding: 0 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,7 +11,7 @@ export const CreationsTitle = styled.h1`
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 400;
     text-transform: uppercase;
-    font-size: 2.5rem;
+    font-size: 2.25rem;
     margin-bottom: 50px;
 `;
 

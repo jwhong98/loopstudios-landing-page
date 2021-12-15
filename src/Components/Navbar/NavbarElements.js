@@ -24,7 +24,7 @@ export const NavbarContainer = styled.div`
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 0 30px;
+    padding: 0 20px;
 
     @media screen and (min-width: 640px) {
         width: 85%;

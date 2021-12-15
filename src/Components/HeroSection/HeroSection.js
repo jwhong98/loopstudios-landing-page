@@ -1,19 +1,16 @@
 import styled from "styled-components";
-import img from '../../image/mobile/image-hero.jpg';
 import img2 from '../../image/desktop/image-hero.jpg';
 
 export const HeroSectionContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 30px;
+    padding: 0 20px;
     height: 810px;
     z-index: 2;
     position: relative;
-    background-image: url(${img});
-    background-size: 100%;
-    background-repeat: no-repeat;
     z-index: 1;
+    margin-bottom: 1rem;
 
     @media screen and (min-width: 640px) {
         background-image: url(${img2});
@@ -25,12 +22,23 @@ export const HeroSectionContainer = styled.div`
     }
 `;
 
+export const HeroImg = styled.img`
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    min-width: 100%;
+    min-height: 100%;
+`;
+
 export const TextWrapper = styled.div`
     width: 100%;
+    display: flex;
+    align-items: center;
+    height: 240px;
     text-align: left;
     color: #fff;
     border: 3px solid #fff;
-    padding: 20px;
+    padding: 0 20px;
     word-spacing: 999rem;
 
     @media screen and (min-width: 640px) {
@@ -44,7 +52,7 @@ export const TextWrapper = styled.div`
 export const Text = styled.p`
     font-family: 'Josefin Sans', sans-serif;
     text-transform: uppercase;
-    font-size: 3rem;
+    font-size: 2.65rem;
     margin: 0px;
     padding: 0px;
 

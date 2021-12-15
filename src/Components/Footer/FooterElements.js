@@ -81,6 +81,7 @@ export const Credit = styled.div`
     font-family: 'Alata', sans-serif;
     font-weight: 400;
     color: hsl(0, 0%, 55%);
+    font-size: .75rem;
 `;
 
 export const CreditLink = styled.a`

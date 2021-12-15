@@ -9,23 +9,28 @@ export const CreationsCardContainer = styled.div`
     display: flex;
     align-items: flex-end;
     padding: 20px;
-    margin-bottom: 30px;
+    padding-bottom: 40px;
     color: #fff;
     cursor: pointer;
 
     &:hover {
         color: hsl(0, 0%, 0%);
     }
+
+    @media screen and (min-width: 400px) {
+        margin-bottom: 1rem;
+    }
 `;
 
 export const TextWrapper = styled.div`
-    width: 170px;
+    width: 130px;
     padding: 0;
     margin: 0px;
 `;
 
 export const Title = styled.h1`
     font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5rem;
     font-weight: 300;
     text-transform: uppercase;
     padding: 0px;
